@@ -25,48 +25,24 @@ with the job description and provide insights such as :-
 * analysis.py that will triangulate the pdf information and the JD and will provide insights and next step.
 
 
+🧠 Project Objective
+The goal of this application is to automate the screening of resumes by comparing them with a given Job Description (JD) and providing a match percentage, missing skills, and relevant insights for career alignment using Natural Language Processing (NLP).
 
-# 📄 Resume Analysis App (CV.ai)
+✅ Project Highlights
+Upload Resume (PDF)
 
-**Live Demo**: [https://resume-analysis-ekhyq7ct333kqhtprcgks6.streamlit.app](https://resume-analysis-ekhyq7ct333kqhtprcgks6.streamlit.app)
+Upload Job Description (PDF/Text)
 
-A smart AI-powered Streamlit web application that compares candidate resumes against job descriptions (JD) to generate an intelligent match score, skill gap analysis, and detailed insights. Built for recruiters, job seekers, and talent acquisition professionals.
+Extract text from both files
 
----
+Identify and match key skills & keywords
 
-## 🚀 Features
+Show match percentage and missing skills
 
-- ✅ Upload PDF resume and job description
-- ✅ Extract and parse key skills, experiences, and education
-- ✅ Match score between Resume & JD
-- ✅ Highlight missing skills
-- ✅ Natural language-based skill extraction using NLP
-- ✅ Clean and interactive UI with Streamlit
-- ✅ Deployed on **Streamlit Cloud**
+Streamlit-based real-time interface
 
----
+Deployed on Streamlit Cloud
 
-## 📌 Use Case
 
-This app helps:
-- **Job Seekers** optimize their resumes for specific job roles
-- **Recruiters** evaluate resume-job alignment instantly
-- **Career Coaches** provide feedback using AI-driven comparison
 
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| 👩‍💻 Programming | Python 3.10+ |
-| 🌐 Frontend UI | Streamlit |
-| 📄 Parsing Engine | `PyPDF2`, `pdfminer.six`, or similar |
-| 🧠 NLP & Analysis | `spaCy`, `nltk`, or custom logic |
-| 📦 Deployment | Streamlit Cloud |
-| 📊 Visualization | Streamlit widgets, metrics |
-
----
-
-## 📂 Project Structure
 
